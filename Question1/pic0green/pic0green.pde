@@ -5,7 +5,7 @@ void setup()
 {
   size(1000, 640);
   frameRate(30);
-  img = loadImage("food.jpg");
+  img = loadImage("pic0.jpg");
   img.loadPixels();
   loadPixels();
   
