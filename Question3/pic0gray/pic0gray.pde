@@ -1,3 +1,7 @@
+/**
+ * References
+ * http://www.pronowa.com/room/imaging003.html
+ */
 PImage img; //Original image
 PImage img_gray; //Changed image
 
@@ -8,7 +12,6 @@ void setup()
   img = loadImage("pic0.jpg");
   img.loadPixels();
   loadPixels();
-  
   
   img_gray = createImage(img.width, img.height, RGB);
 
